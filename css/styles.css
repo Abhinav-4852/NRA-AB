@@ -84,7 +84,7 @@ ul {
 }
 
 .logo img {
-    height: 50px;
+    height: 160px;
     width: auto;
 }
 
@@ -800,7 +800,7 @@ ul {
    Footer
    =================================== */
 .footer {
-    background: #434788;
+    background: #3B2A5A;
     color: white;
     padding: 3rem 0 1rem;
 }
@@ -855,57 +855,22 @@ ul {
     letter-spacing: 1px;
 }
 
-.office-info p {
-    color: rgba(255, 255, 255, 0.8);
-    line-height: 1.4;
-    margin-bottom: 1rem;
-    font-size: 0.9rem;
+.footer-brand {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0.5px;
 }
 
-.contact-info {
-    margin-top: 2rem;
+.footer-sub-brand {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.9);
 }
 
-.contact-item {
-    margin-bottom: 0.25rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.contact-label {
-    color: white;
-    font-weight: 600;
-    font-size: 0.9rem;
-    margin-bottom: 0;
-    line-height: 1.2;
-}
-
-.contact-value {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 0.9rem;
-    line-height: 1.2;
-    margin-bottom: 0;
-}
-
-.contact-email {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 0.9rem;
-    line-height: 1.2;
-    margin-bottom: 0;
-}
-
-.footer-right-section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-}
-
-.footer-col h3 {
-    color: white;
-    font-size: 1rem;
-    font-weight: 600;
-    margin-bottom: 1.5rem;
-    letter-spacing: 1px;
+.footer-col p {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.6;
 }
 
 .footer-col ul {
@@ -927,30 +892,33 @@ ul {
 
 .social-links {
     display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-}
-
-.social-item {
-    display: flex;
+    flex-direction: row;
+    gap: 1rem;
     align-items: center;
-    gap: 0.75rem;
 }
 
-.social-logo {
-    width: 20px;
-    height: 20px;
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    opacity: 1;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    filter: brightness(0) invert(1); /* Ensures icons are white */
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: translateY(-3px);
+}
+
+.social-icon:hover img {
     filter: brightness(0) invert(1);
-}
-
-.social-item a {
-    color: rgba(255, 255, 255, 0.8);
-    transition: color 0.3s ease;
-    font-size: 0.9rem;
-}
-
-.social-item a:hover {
-    color: white;
+    opacity: 0.7;
 }
 
 .footer-bottom {
@@ -1624,6 +1592,14 @@ ul {
         display: flex;
     }
     
+    .logo img {
+        height: 100px;
+    }
+    
+    .logo-text h1 {
+        font-size: 1.4rem;
+    }
+    
     .hero-title {
         font-size: 2rem;
     }
@@ -1678,6 +1654,19 @@ ul {
     .page-header h1 {
         font-size: 2rem;
     }
+    
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .footer-brand {
+        font-size: 2.2rem;
+    }
+    
+    .social-links {
+        justify-content: flex-start;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1693,11 +1682,32 @@ ul {
         flex-direction: column;
     }
     
+    .logo img {
+        height: 70px;
+    }
+    
+    .logo-text h1 {
+        font-size: 1.2rem;
+    }
+    
     .section-header h2 {
         font-size: 1.8rem;
     }
     
     .about-features {
         flex-direction: column;
+    }
+    
+    .footer-brand {
+        font-size: 1.8rem;
+    }
+    
+    .footer-sub-brand {
+        font-size: 1rem;
+    }
+    
+    .social-icon img {
+        width: 28px;
+        height: 28px;
     }
 }
