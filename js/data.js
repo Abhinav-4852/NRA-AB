@@ -17,7 +17,7 @@ const tourPackages = [
             "Full day visit to Kufri by car",
             "Inclusive of all taxes"
         ],
-        image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600"
+        image: "Tour Package Images - Solanki Tours/Shimla Volvo Tour package.jpg"
     },
     {
         id: 2,
@@ -39,7 +39,7 @@ const tourPackages = [
             "All pick up and drops from Volvo stand to hotel",
             "Inclusive of all taxes"
         ],
-        image: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=600"
+        image: "Tour Package Images - Solanki Tours/Kullu Manali Volvo Tour Package.jpg"
     },
     {
         id: 3,
@@ -64,7 +64,7 @@ const tourPackages = [
             "Sightseeing Kullu-manikaran by car",
             "Inclusion of all taxes"
         ],
-        image: "https://images.unsplash.com/photo-1606219547564-34d765d321ae?w=600"
+        image: "Tour Package Images - Solanki Tours/Shimla Kullu Manali Tour.avif"
     },
     {
         id: 4,
@@ -87,7 +87,7 @@ const tourPackages = [
             "Full day sightseeing of Chamba - Khajjiar - Kalatop by Car",
             "Inclusive of all applicable taxes"
         ],
-        image: "https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=600"
+        image: "Tour Package Images - Solanki Tours/Dharamshala Dalhouse Volvo Tour Package.jpg"
     },
     {
         id: 5,
@@ -108,7 +108,7 @@ const tourPackages = [
             "All Transport and Sightseeing by Individual Car",
             "All Taxes Include"
         ],
-        image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=600"
+        image: "Tour Package Images - Solanki Tours/Kerala Backwater Tour.jpg"
     },
     {
         id: 6,
@@ -146,7 +146,7 @@ const tourPackages = [
             "Water sports activities",
             "All taxes included"
         ],
-        image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600"
+        image: "Tour Package Images - Solanki Tours/Andaman Island Paradise.jpg"
     },
     {
         id: 8,
@@ -166,7 +166,7 @@ const tourPackages = [
             "All transport and sightseeing by Individual Car",
             "All taxes are include"
         ],
-        image: "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=600"
+        image: "Tour Package Images - Solanki Tours/Golden Triangle Tour.jpg"
     },
     {
         id: 9,
@@ -185,7 +185,7 @@ const tourPackages = [
             "All transport and sightseeing by Individual Car",
             "All taxes are include"
         ],
-        image: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=600"
+        image: "Tour Package Images - Solanki Tours/darjeeling Gangtok Tour.jpg"
     },
     {
         id: 10,
@@ -204,7 +204,7 @@ const tourPackages = [
             "All Transport and Sightseeing by Individual Car",
             "All Taxes Include"
         ],
-        image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600"
+        image: "Tour Package Images - Solanki Tours/Uttarakhand Hill Station tour.jpg"
     },
     {
         id: 11,
@@ -224,7 +224,7 @@ const tourPackages = [
             "Accommodation for 2 persons in A/C room",
             "Free use of swimming pool, gym and indoor games"
         ],
-        image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=600"
+        image: "Tour Package Images - Solanki Tours/Goa Beach Paradise.jpg"
     },
     {
         id: 12,
@@ -246,7 +246,7 @@ const tourPackages = [
             "Airport taxes",
             "Service Taxes Included"
         ],
-        image: "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=600"
+        image: "Tour Package Images - Solanki Tours/Thailand Tour Package.jpg"
     },
     {
         id: 13,
@@ -263,7 +263,7 @@ const tourPackages = [
             "Airport Hotel Return Transfers",
             "All Hotel taxes and Service charges"
         ],
-        image: "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=600"
+        image: "Tour Package Images - Solanki Tours/Singapore Tour Package.jpg"
     },
     {
         id: 14,
@@ -282,7 +282,7 @@ const tourPackages = [
             "Airport Hotel Return Transfers",
             "All Hotel taxes and Service charges"
         ],
-        image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600"
+        image: "Tour Package Images - Solanki Tours/Dubai Tour Package.jpg"
     },
     {
         id: 15,
@@ -298,7 +298,7 @@ const tourPackages = [
             "Value added tax",
             "Meeting and Assistance at the airport"
         ],
-        image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600"
+        image: "Tour Package Images - Solanki Tours/Sri Lanka Tour Package.jpg"
     }
 ];
 
