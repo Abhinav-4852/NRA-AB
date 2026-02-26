@@ -17,16 +17,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Handle contact form
-    const contactForm = document.getElementById('contactForm');
-    if (contactForm) {
-        contactForm.addEventListener('submit', handleContactForm);
-    }
+    // Forms now submit directly to Formspree - no JS interception needed
 
-    // Handle enquiry form
-    const enquiryForm = document.getElementById('enquiryForm');
-    if (enquiryForm) {
-        enquiryForm.addEventListener('submit', handleEnquiryForm);
-    }
+    // Forms now submit directly to Formspree - no JS interception needed
 
     // Smooth scroll for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -103,22 +96,6 @@ function searchPackages() {
     if (duration) url += `dur=${duration}`;
     
     window.location.href = url;
-}
-
-// Handle contact form submission
-function handleContactForm(e) {
-    e.preventDefault();
-    
-    // Get form data
-    const formData = new FormData(e.target);
-    const data = Object.fromEntries(formData);
-    
-    // In a real application, you would send this to a server
-    console.log('Contact form data:', data);
-    
-    // Show success message
-    alert('Thank you for contacting us! We will get back to you within 24 hours.');
-    e.target.reset();
 }
 
 // Utility function to get URL parameters
@@ -198,37 +175,6 @@ function sortPackages(packages, sortBy) {
 // Scroll to top
 function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-}
-
-// Handle enquiry form submission
-function handleEnquiryForm(e) {
-    e.preventDefault();
-    
-    const formData = new FormData(e.target);
-    const enquiryData = {
-        name: formData.get('name'),
-        email: formData.get('email'),
-        phone: formData.get('phone'),
-        date: formData.get('date'),
-        adults: formData.get('adults'),
-        kids: formData.get('kids'),
-        comments: formData.get('comments')
-    };
-    
-    // Simple validation
-    if (!enquiryData.name || !enquiryData.email || !enquiryData.phone || !enquiryData.date || !enquiryData.adults || !enquiryData.comments) {
-        alert('Please fill in all required fields.');
-        return;
-    }
-    
-    // In a real application, you would send this data to your server
-    console.log('Enquiry submitted:', enquiryData);
-    
-    // Show success message
-    alert('Thank you for your enquiry! We will get back to you within 24 hours.');
-    
-    // Reset form
-    e.target.reset();
 }
 
 // Add scroll to top button
