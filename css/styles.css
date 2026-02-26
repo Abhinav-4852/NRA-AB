@@ -800,7 +800,7 @@ ul {
    Footer
    =================================== */
 .footer {
-    background: var(--text-dark);
+    background: #3B2A5A;
     color: white;
     padding: 3rem 0 1rem;
 }
@@ -815,6 +815,18 @@ ul {
 .footer-col h3,
 .footer-col h4 {
     margin-bottom: 1rem;
+}
+
+.footer-brand {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.footer-sub-brand {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .footer-col p {
